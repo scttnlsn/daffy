@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+from daffy.main import Daffy
+import sys
+
+if __name__ == '__main__':
+    print Daffy().run(sys.argv[1])
